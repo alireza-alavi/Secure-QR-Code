@@ -508,6 +508,7 @@ void MainWindow::animateTabWidgetPages(Direction dir)
     }
 
 
+    //Animation!
     QPropertyAnimation *animation = new QPropertyAnimation(page, "pos");
 
     animation->setDuration(100);
